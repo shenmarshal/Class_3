@@ -1,11 +1,11 @@
-import class_code
-import home_code
+# import class_code
+# import home_code
 import unittest
-import myprint
+from myprint import my_print
 
-class Test(self):
+class Test:
 
-    def test_myprint():
+    def test_my_print(self):
 
         expected = 2
-        assert myprint(2) == expected
+        assert my_print("test", 2) == expected
